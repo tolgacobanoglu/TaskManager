@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AddNewTaskFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/addnewpadding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/enter_your_task"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_36" />
+
+
+
+        <EditText
+            android:id="@+id/titleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/addnewmargintop"
+            android:background="@color/white"
+            android:hint="@string/task_title"
+            android:padding="@dimen/addnewpadding_15"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/contentInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/addnewmargintop_2"
+            android:background="@color/white"
+            android:hint="@string/task_content"
+            android:padding="@dimen/addnewpadding_15"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_20"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/enter_priority"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_20" />
+
+
+        <com.google.android.material.chip.ChipGroup
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_20"
+            android:fontFamily="sans-serif">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/highChip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/high_prio"
+                android:text="@string/high" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/mediumChip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/medium_prio"
+                android:text="@string/medium"></com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/lowChip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/low_prio"
+                android:text="@string/low"></com.google.android.material.chip.Chip>
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop_20"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+</FrameLayout>

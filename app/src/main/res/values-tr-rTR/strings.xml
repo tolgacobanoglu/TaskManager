@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to_briefly_describe_the_application_you_can_view_the_existing_tasks_and_add_a_new_task_from_the_navigation_drawer_on_the_side">Uygulamayı kısaca anlatmak gerekirse yandaki navigasyon çekmecesinden mevcut görevleri görüntüleyebilir ve yeni bir görev ekleyebilirsiniz.</string>
+    <string name="enter_your_task">Yapılacağı Giriniz</string>
+    <string name="task_title">Yapılacak Başlğı</string>
+    <string name="task_content">Yapılacak İçeriği</string>
+    <string name="enter_priority">Önemini Girin</string>
+    <string name="high">YÜKSEK</string>
+    <string name="medium">ORTA</string>
+    <string name="low">DÜŞÜK</string>
+    <string name="save">Kaydet</string>
+    <string name="task_id">YAPILACAK NO</string>
+    <string name="textview">TextView</string>
+    <string name="task_title_2">YAPILACAK BAŞLIĞI</string>
+    <string name="task_content_2">YAPILACAK İÇERİĞİ</string>
+    <string name="welcome_to">HOŞGELDİNİZ</string>
+    <string name="task_manager">TASK MANAGER</string>
+    <string name="task_title2">TASK TITLE</string>
+    <string name="task_content2">TASK CONTENT</string>
+    <string name="helpAction">YARDIM</string>
+    <string name="tasksTitle">YAPILACAKLAR</string>
+    <string name="detailsTitle">DETAYLAR</string>
+    <string name="addNewTitle">YENİ YAPILACAK EKLEME</string>
+    <string name="tasks">YAPILACAKLAR</string>
+    <string name="add_new_task">YENİ YAPILACAK EKLEME</string>
+</resources>

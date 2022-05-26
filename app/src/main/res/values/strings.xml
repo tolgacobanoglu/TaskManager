@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to_briefly_describe_the_application_you_can_view_the_existing_tasks_and_add_a_new_task_from_the_navigation_drawer_on_the_side">To briefly describe the application, you can view the existing tasks and add a new task from the navigation drawer on the side.</string>
+    <string name="enter_your_task">Enter Your Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_content">Task Content</string>
+    <string name="enter_priority">Enter Priority</string>
+    <string name="high">HIGH</string>
+    <string name="medium">MEDIUM</string>
+    <string name="low">LOW</string>
+    <string name="save">Save</string>
+    <string name="task_id">TASK ID</string>
+    <string name="textview">TextView</string>
+    <string name="task_title_2">TASK TITLE</string>
+    <string name="task_content_2">TASK CONTENT</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="task_manager">TASK MANAGER</string>
+
+    <string name="task_title2">TASK TITLE</string>
+    <string name="task_content2">TASK CONTENT</string>
+    <string name="helpAction">HELP</string>
+    <string name="tasksTitle">TASKS</string>
+    <string name="detailsTitle">DETAILS</string>
+    <string name="addNewTitle">ADD NEW TASK</string>
+    <string name="tasks">TASKS</string>
+    <string name="add_new_task">ADD NEW TASK</string>
+</resources>

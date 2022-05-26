@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.tolgacobanoglu.taskmanager.view.TasksFragment"
+        android:label="@string/tasksTitle"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_tasksFragment_to_addNewTaskFragment"
+            app:destination="@id/addNewTaskFragment" />
+        <action
+            android:id="@+id/action_tasksFragment_to_helpFragment"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_tasksFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.tolgacobanoglu.taskmanager.view.HelpFragment"
+        android:label="@string/helpAction"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/addNewTaskFragment"
+        android:name="com.tolgacobanoglu.taskmanager.view.AddNewTaskFragment"
+        android:label="@string/addNewTitle"
+        tools:layout="@layout/fragment_add_new_task" >
+        <action
+            android:id="@+id/action_addNewTaskFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.tolgacobanoglu.taskmanager.view.WelcomeFragment"
+        android:label="Task Manager"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.tolgacobanoglu.taskmanager.view.DetailsFragment"
+        android:label="@string/detailsTitle"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="taskID"
+            app:argType="integer" />
+        <argument
+            android:name="taskTitle"
+            app:argType="string" />
+        <argument
+            android:name="taskContent"
+            app:argType="string" />
+    </fragment>
+</navigation>

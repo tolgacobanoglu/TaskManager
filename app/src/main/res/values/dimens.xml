@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recyler_view_item_padding">10dp</dimen>
+    <dimen name="size_24">24sp</dimen>
+    <dimen name="size_15">15sp</dimen>
+    <dimen name="size_5_dp">5dp</dimen>
+    <dimen name="task_item_padding">7dp</dimen>
+    <dimen name="task_item_elevation">3dp</dimen>
+    <dimen name="task_item_corner">15dp</dimen>
+    <dimen name="header_size">180dp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="welcomemargintop">126dp</dimen>
+    <dimen name="welcomemargintop2">167dp</dimen>
+    <dimen name="welcomemarginend">127dp</dimen>
+    <dimen name="welcomestart">112dp</dimen>
+    <dimen name="welcometitlemargintop">92dp</dimen>
+    <dimen name="welcometitlemarginend">112dp</dimen>
+    <dimen name="fabmargin">16dp</dimen>
+    <dimen name="help_padding">15dp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <dimen name="detailsmarginend">102dp</dimen>
+    <dimen name="detailsmarginbottom">70dp</dimen>
+    <dimen name="detailsmargintop">270dp</dimen>
+    <dimen name="detailsmargintop_2">71dp</dimen>
+    <dimen name="detailsmarginstart">69dp</dimen>
+    <dimen name="addnewpadding">20dp</dimen>
+    <dimen name="size_36">36sp</dimen>
+    <dimen name="addnewmargintop">30dp</dimen>
+    <dimen name="addnewpadding_15">15dp</dimen>
+    <dimen name="addnewmargintop_2">20dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="size_20">20sp</dimen>
+    <dimen name="margintop_20">20dp</dimen>
+    <dimen name="button_size">200dp</dimen>
+    <dimen name="size_0">0dp</dimen>
+</resources>
